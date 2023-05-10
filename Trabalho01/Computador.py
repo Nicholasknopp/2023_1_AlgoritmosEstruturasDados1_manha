@@ -9,11 +9,11 @@ class Computador(metaclass=ABCMeta):
     def getInformacoes(self):
         a = "Modelo: " + self.modelo + "\nCor: " + self.cor + "\nPreço: " + str(self.preco)
         return a
-    
+   
     @abstractmethod
     def cadastrar(self, modelo, cor, preco):
         pass
-    
+   
     def imprimir(self):
         print("Modelo: " + self.modelo)
         print("cor: " + str(self.cor) )
