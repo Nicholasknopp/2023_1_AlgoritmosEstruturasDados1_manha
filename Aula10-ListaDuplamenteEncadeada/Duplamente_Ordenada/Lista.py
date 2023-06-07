@@ -31,7 +31,7 @@ class Lista:
             print( "Tamanho: ", str(self.tamanho) )
             
             
-def add(self, valor):
+    def add(self, valor):
         nodo = No(valor)
         if self.inicio == None:
             self.inicio = nodo
@@ -67,7 +67,7 @@ def add(self, valor):
                     
    
             
-def remover(self, valor):
+    def remover(self, valor):
         tamAtual = self.tamanho
         if self.inicio == None:
             print("Lista Vazia")
